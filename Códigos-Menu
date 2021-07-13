@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+	<head>
+	<title>Novo teste</title>
+
+</head>
+<style>
+	"{margin: 0;padding: 0;box-sizing: border-box;}"
+	body{
+		background: #ADD8E6;
+	}
+	form{
+		background: #ADD8E6;
+		position: absolute;
+		left: 100px;
+		top: 100px;
+		padding: 20px;
+		max-width: 500%;
+		transform: translate(-50% - 50%);
+	}
+	form{
+		font-family: 'Arial', 'Times New Roman';
+		color: black;
+		text-align: center;
+	}
+	form input[type=text],
+	form input[type=password]{
+		width: 100%;
+		height: pointer;
+		border: 0;
+		border-radius: 20px;
+		border: 1px solid #ccc;
+		color:  black;
+		padding-left: 10px;
+	}
+	form input[type=submit]:hover{
+		background-color:  #008080;
+	}
+</style>
+<body>
+	<form>
+		<h3>Olá, insira suas credenciais</h3>
+	<input type="text" name="email" placeholder="Insira seu email...">
+	<input type="password" name="senha" placeholder="Insira sua senha...">
+	<input type="submit" name="acao" placeholder="Enviar..">
+	</form>
+	
+</body>
+</html>
